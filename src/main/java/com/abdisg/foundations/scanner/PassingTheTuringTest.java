@@ -38,7 +38,7 @@ public class PassingTheTuringTest {
         System.out.println("Really? Pawpaws? That's wild!\n" +
 "Speaking of favorites, what's your favorite number?"); // Ask user input
         int number = sc.nextInt(); //Read user input
-        System.out.println("My favorite number is:" + number ); // Output user input
+        System.out.println("My favorite number is:" + number ); // Output user's input
         
         System.out.println("42 is a cool number. Mine's -7.\n" +
 "Did you know 42 * -7 is -294? That's a cool number too!"); 
