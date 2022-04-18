@@ -22,18 +22,22 @@ public class DontForgetToStoreIt {
         
         System.out.println("Give me pi to at least 5 decimals: ");
         Double.parseDouble(inputReader.nextLine());
+//        double pi = Double.parseDouble(inputReader.nextLine());
         
         // We've used Double.parseDouble but meaningOfLifeAndEverything is an INT
         // so we'll have to use Integer.parseInt
          
         System.out.println("What is the meaning of life, the universe & everything? ");
         Integer.parseInt(inputReader.nextLine());
+//        int meaningOfLifeAndEverything = Integer.parseInt(inputReader.nextLine());
        
         System.out.println("What is your favorite kind of cheese? ");
         inputReader.nextLine();
+//        String cheese = inputReader.nextLine();
         
         System.out.println("Do you like the color red or blue more? ");
         inputReader.nextLine();
+//        String color = inputReader.nextLine();
         
         /** System.out.println("Ooh, " + color + " " + cheese + " sounds delicious!");
         *System.out.println("The cercumference of life is " +( 2 * pi * meaningOfLifeAndEverything));

@@ -15,14 +15,14 @@ public class MenuOfChampions {
         String arts, welcomeNote, menu;
         double price;
         //Assign values.
-        arts = "\"-._,-'_`-._,-'_`-._,-'_`-._,-'_`-,_,-'_`-,_,-'_`-,_,-'_`-,_,-'_`-,.\n" +
-"(  ,-'_,-<.>-'_,-<.>-'_,-<.>-'_,-<.>-'_,-<.>-'_,-<.>-'_,-<.>-'_,-~-} ;.\n"";
-        welcomeNote = "WELCOME TO RESTAURANT NIGHT VALE!\n";
+//        arts = "( ,-'_,-<.>-'_,-<.>-'_,-<.>-'_,-<.>-'_,-<.>-'_,-<.>-'_,-<.>-'_,-~-} ;.\n" +
+//                "\"-._,-'_`-._,-'_`-._,-'_`-._,-'_`-,_,-'_`-,_,-'_`-,_,-'_`-,_,-'_`-,.\n"";
+//        welcomeNote = "WELCOME TO RESTAURANT NIGHT VALE!\n";
         
 //print out.
-        System.out.println(arts);
-        System.out.println(welcomeNote);
-        System.out.println(arts);
+        System.out.println("arts");
+        System.out.println("welcomeNote");
+        System.out.println("arts");
         System.out.print(" $500.00 *** ");
         System.out.println("Slice of Big Rico Pizza");
         System.out.print(" $2.00 ***** ");
