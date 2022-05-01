@@ -22,8 +22,11 @@ com\abdisg\foundations\scanner\DontForgetToStoreIt.class
 com\sg\foundations\flowcontrol\fors\TraditionalFizzBuzz.class
 com\sg\foundation\basics\practiceprogramming\MenuOfChampions.class
 com\sg\foundation\basics\practiceprogramming\TheOrderOfThings.class
+com\sg\foundations\flowcontrol\methods\MethodFunThree.class
 com\sg\foundations\flowcontrol\whiles\LazyTeenager.class
 com\sg\foundations\flowcontrol\ifs\LlamasWhalesAndDodosOhMy.class
+com\sg\foundations\flowcontrol\methods\MethodFunTwo.class
 com\sg\foundations\flowcontrol\methods\ReturnToSender.class
 com\sg\foundations\flowcontrol\whiles\WaitAWhile.class
 com\sg\foundations\flowcontrol\fors\ForTimes.class
+com\sg\foundations\flowcontrol\methods\MethodFun.class
