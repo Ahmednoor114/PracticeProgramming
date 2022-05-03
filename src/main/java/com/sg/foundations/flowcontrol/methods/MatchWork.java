@@ -11,6 +11,7 @@ package com.sg.foundations.flowcontrol.methods;
  */
 public class MatchWork {
     public static void main(String[] args) {
+        
 
 
         System.out.println(" The word Cart should come before Horse alphabetically : " + comesBefore("C","H"));
@@ -18,6 +19,11 @@ public class MatchWork {
         System.out.println(" (short) Pi = " + pi());
         System.out.println(" The first letter of the word Llama is: " + firstLetter("L"));
         System.out.println(" 1337 x 1337 = " + times1337(1337));
+        
+        calculateAbdi();
+        System.out.println("Int a / b : " + calculateAbdi(42));
+        System.out.println("Int a / b : " + calculateAbdi(21));
+        calculateAbdi("Hi", " Hellow");
 
     }
 
@@ -39,6 +45,18 @@ public class MatchWork {
 
     public static boolean comesBefore(String a, String b){
         return a.compareToIgnoreCase(b) < 0;
+    }
+    
+    public static void calculateAbdi(){
+        System.out.println("Start calculation: ");
+    }
+    
+    public static int calculateAbdi(int a){
+        return a / 7;
+    }
+    
+    public static void calculateAbdi(String a, String b){
+        System.out.println("My favourite greetings are : " + a + " and "+ b);
     }
     
 }

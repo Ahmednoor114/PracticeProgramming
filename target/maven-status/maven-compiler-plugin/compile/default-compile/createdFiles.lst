@@ -3,6 +3,7 @@ com\sg\foundations\flowcontrol\ifs\YourLifeInMovies.class
 com\sg\foundations\flowcontrol\random\GuessMeMore.class
 com\abdisg\foundations\scanner\PassingTheTuringTest.class
 com\abdisg\foundations\scanner\QuestForTheUserInput.class
+com\sg\foundations\flowcontrol\methods\MethodFunFour.class
 com\sg\foundation\basics\practiceprogramming\AllTheMaths.class
 com\sg\foundation\basics\practiceprogramming\MoreBucketsMoreFun.class
 com\sg\foundations\flowcontrol\ifs\GuesMe.class
@@ -13,6 +14,7 @@ com\sg\foundation\basics\practiceprogramming\BestAdderEver.class
 com\sg\foundations\flowcontrol\random\ALittleChaos.class
 com\sg\foundation\basics\practiceprogramming\ProjectGutenberg.class
 com\sg\foundation\basics\practiceprogramming\AllAboutMe.class
+com\sg\foundations\flowcontrol\methods\BarelyControlledChaos.class
 com\sg\foundation\basics\practiceprogramming\CommentingCode.class
 com\sg\foundations\flowcontrol\fors\ForAndTwentyBlackbirds.class
 com\sg\foundations\flowcontrol\methods\MethodToTheMadness.class
