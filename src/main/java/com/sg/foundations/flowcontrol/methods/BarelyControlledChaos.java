@@ -44,8 +44,9 @@ public class BarelyControlledChaos {
     // ??? Method 1 ???
     public static String chooseRandomColor(){
         Random random = new Random();
+        int yourColor = random.nextInt(5);
 
-        switch (random.nextInt(5)){
+        switch (yourColor){
             case 0:
                 return ("Blue");
             case 1:
@@ -63,8 +64,8 @@ public class BarelyControlledChaos {
     // ??? Method 2 ???
     public static String chooseRandomAnimal(){
         Random random = new Random();
-
-        switch (random.nextInt(5)){
+        int yourAnimal = random.nextInt(5);
+        switch (yourAnimal){
             case 0:
                 return ("Lion");
             case 1:

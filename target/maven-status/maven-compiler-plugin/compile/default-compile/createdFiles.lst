@@ -10,10 +10,12 @@ com\sg\foundations\flowcontrol\ifs\GuesMe.class
 com\sg\foundation\basics\practiceprogramming\InABucket.class
 com\sg\foundations\flowcontrol\methods\MatchWork.class
 com\sg\foundation\basics\practiceprogramming\ABeginning.class
+com\sg\foundations\flowcontrol\arrays\StillPositive.class
 com\sg\foundation\basics\practiceprogramming\BestAdderEver.class
 com\sg\foundations\flowcontrol\random\ALittleChaos.class
 com\sg\foundation\basics\practiceprogramming\ProjectGutenberg.class
 com\sg\foundation\basics\practiceprogramming\AllAboutMe.class
+com\sg\foundations\flowcontrol\arrays\FruitsBasket.class
 com\sg\foundations\flowcontrol\methods\BarelyControlledChaos.class
 com\sg\foundation\basics\practiceprogramming\CommentingCode.class
 com\sg\foundations\flowcontrol\fors\ForAndTwentyBlackbirds.class
@@ -24,6 +26,7 @@ com\abdisg\foundations\scanner\DontForgetToStoreIt.class
 com\sg\foundations\flowcontrol\fors\TraditionalFizzBuzz.class
 com\sg\foundation\basics\practiceprogramming\MenuOfChampions.class
 com\sg\foundation\basics\practiceprogramming\TheOrderOfThings.class
+com\sg\foundations\flowcontrol\arrays\ARainbow.class
 com\sg\foundations\flowcontrol\methods\MethodFunThree.class
 com\sg\foundations\flowcontrol\whiles\LazyTeenager.class
 com\sg\foundations\flowcontrol\ifs\LlamasWhalesAndDodosOhMy.class
