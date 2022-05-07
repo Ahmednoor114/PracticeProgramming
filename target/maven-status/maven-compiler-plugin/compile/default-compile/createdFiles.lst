@@ -21,6 +21,7 @@ com\sg\foundation\basics\practiceprogramming\CommentingCode.class
 com\sg\foundations\flowcontrol\fors\ForAndTwentyBlackbirds.class
 com\sg\foundations\flowcontrol\methods\MethodToTheMadness.class
 com\abdisg\foundations\scanner\MiniMadLibs.class
+com\sg\foundations\flowcontrol\arrays\SimpleCombination.class
 com\sg\foundation\basics\practiceprogramming\AdderVersion2.class
 com\abdisg\foundations\scanner\DontForgetToStoreIt.class
 com\sg\foundations\flowcontrol\fors\TraditionalFizzBuzz.class
