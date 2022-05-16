@@ -19,14 +19,14 @@ public class RockPaperScissor {
         Random rGen = new Random();
 
         //Created all variables.
-        int rock = 0;
-        int paper = 1;
-        int scissor = 2;
-        int roundNumForTheUser = 0;
         int winner = 0;
         int loser = 0;
         int tie = 0;
+        int rock = 0;
+        int paper = 1;
+        int scissor = 2;
         boolean adjust = true;
+        int roundNumForTheUser = 0;
 
         int playerChoice;
         int computerChoice;
