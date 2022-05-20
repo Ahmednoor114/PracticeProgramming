@@ -12,7 +12,9 @@ import java.util.Scanner;
  *
  * @author 16127
  */
-public class RockPaperScissor {
+public class RPSMethod {
+        Scanner sc = new Scanner(System.in);
+        Random rGen = new Random();
     public static void main(String[] args) {
         //Created input and random classes.
         Scanner sc = new Scanner(System.in);
@@ -26,28 +28,21 @@ public class RockPaperScissor {
         int paper = 1;
         int scissor = 2;
         boolean adjust = true;
-        int roundNumForTheUser = 0;
+        int roundNumForTheUser =0;
 
         int playerChoice;
         int computerChoice;
-
-        //Prompt the player to play.
-        System.out.println("How many rouds do you wanna play? ");
-        roundNumForTheUser = sc.nextInt();
-        sc.nextLine();
-        //Prompt the player to play in between these range.
-        while (roundNumForTheUser < 1 || roundNumForTheUser > 10) {
-            System.out.println("You can only choice in between 1 and 10.");
-            roundNumForTheUser = sc.nextInt();
-            sc.nextLine();
-        }
+        
+        //Called the method.
+        //System.out.println(roundOneToTen()); 
+        roundOneToTen();
         //Created Loop for whole the code.
         while (adjust == true) {
             for (int i = 0; i < roundNumForTheUser; i++) { // inner loop for counting and processing the rest of the work.
                 System.out.println("Choose either: 0 Rock, 1 Paper, 2 Scissors: ");
                 playerChoice = sc.nextInt();
                 sc.nextLine();
-                if(!(playerChoice==0 || playerChoice==1 ||playerChoice==2)){ //added validation.
+                if(!(playerChoice==0 || playerChoice==1 ||playerChoice==2)){
                     System.out.println("Invalid Input");
                     break;
                 }
@@ -76,7 +71,7 @@ public class RockPaperScissor {
                     System.out.println("You Lost.");
                     loser++;
                 }else {
-                    System.out.println("Invalid Entery" + " Choose either: 0 Rock, 1 Paper, 2 Scissors: ");
+                    System.out.println("Invalid Entery"); //Added Eles Statement
                 }
                 
                 System.out.println("Tie: " + tie);
@@ -99,6 +94,21 @@ public class RockPaperScissor {
                 System.out.println("See you next time");
             }
         }
+    }
+    public static int roundOneToTen() {
+        //Prompt the player to play.
+        Scanner sc = new Scanner(System.in);
+        System.out.println("How many rouds do you wanna play? ");
+        int roundNumForTheUser = sc.nextInt();
+        sc.nextLine();
+        //Prompt the player to play in between these range.
+        while (roundNumForTheUser < 1 || roundNumForTheUser > 10) {
+            System.out.println("You can only choice in between 1 and 10.");
+            roundNumForTheUser = sc.nextInt();
+            sc.nextLine();
+            
+        }
+        return roundNumForTheUser;
     }
     
 }
